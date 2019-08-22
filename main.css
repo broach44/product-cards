@@ -1,3 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     background-color: lightseagreen;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+nav {
+    background-color: lightgray;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 50px;   
+}
+
+nav a {
+    
+}
+
+section {
+    border: 1px solid red;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    background-color: lightgray;
 }
