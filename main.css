@@ -1,3 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     background-color: lightseagreen;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+nav {
+    background-color: lightgray;
+    width: 100%;
+    height: 40px;
+    padding-left: 10px; 
+    padding-top: 10px;  
+    box-shadow: 5px 5px 5px slategray;
+}
+
+
+section {
+    text-align: center;
+    padding-top: 20px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 30px;
+    padding-top: 5px;
+    text-align: center;
+    background-color: lightgray;
+
 }
