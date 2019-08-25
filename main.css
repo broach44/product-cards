@@ -6,8 +6,7 @@
 body {
     background-color: lightseagreen;
     display: flex;
-    flex-direction: column;
-    
+    flex-direction: column;    
 }
 
 nav {
@@ -20,9 +19,9 @@ nav {
 }
 
 
-section {
+section h1 {
     text-align: center;
-    padding-top: 20px;
+    padding: 20px 0 20px 0;
 }
 
 footer {
@@ -33,5 +32,25 @@ footer {
     padding-top: 5px;
     text-align: center;
     background-color: lightgray;
+
+}
+
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 80%;
+    text-align: center;
+    margin: auto;
+}
+
+.card {
+    background-color: white;
+    box-shadow: 2px 2px 2px darkslategrey;
+    border: 1px solid black;
+    width: 28%;
+    height: 200px;
+    border-radius: 5px;
+    margin: 20px;
 
 }
