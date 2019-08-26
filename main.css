@@ -53,7 +53,7 @@ footer {
     box-shadow: 2px 2px 2px darkslategrey;
     border: 1px solid black;
     width: 28%;
-    height: 500px;
+    height: auto;
     border-radius: 5px;
     margin: 20px;
 }
@@ -103,9 +103,33 @@ footer {
     padding-top: 10px;
 }
 
-#soldout {
-    position: absolute;
-    width: 350px;
-    height: 240px;
-    left: 190px;
+/* Media Queries */
+
+@media screen and (max-width: 1147px) {
+
+    .wrapper {  
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 806px) {
+
+    .wrapper {
+        justify-content: space-evenly;
+    }
+
+    .card {
+        width: 38%;
+        margin: 10px;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+
+    .card {
+        width: 75%;
+    }
+
 }
