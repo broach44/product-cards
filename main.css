@@ -70,6 +70,11 @@ footer {
     border-bottom: 1px solid lightblue;
 }
 
+.card:hover {
+    background-color: #d2fcfc;
+    border: 3px dashed #226e6e;
+}
+
 .item-description {
     text-align: justify;
     margin: 10px;
@@ -101,6 +106,15 @@ footer {
     text-align: left;
     margin-left: 10px;
     padding-top: 10px;
+}
+
+#hakuCard img {
+    z-index: 5;
+}
+
+#hakuCard img:first-child {
+    z-index: 4;
+    position: absolute;
 }
 
 /* Media Queries */
