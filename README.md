@@ -14,9 +14,11 @@ The site is a collection of product cards.  Each card includes detailed informat
 
 ### Main View:
 
+![Main View](https://raw.githubusercontent.com/broach44/product-cards/master/screenshots/main-view.PNG)
 
 ### Mobile View:
 
+![Main View - Mobile](https://raw.githubusercontent.com/broach44/product-cards/master/screenshots/main-view-mobile.PNG)
 
 ## How to Run
 - Clone down this project
